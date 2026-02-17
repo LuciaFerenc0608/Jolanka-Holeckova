@@ -23,6 +23,7 @@ body {
   text-align: center;
   padding: 40px 20px;
   background-color: rgba(255, 255, 255, 0.3);
+  margin: 0 auto;
 }
 
 header img {
@@ -52,6 +53,7 @@ header h1 {
 
 main p {
   background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
 }
 
 h3 {
@@ -63,8 +65,11 @@ h3 {
 
 .profile-section {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 30px;
+  flex-wrap: wrap;
+  text-align: left;
   margin-top: 20px;
 }
 
@@ -79,11 +84,28 @@ h3 {
 .profile-info {
   flex: 1;
   background-color: rgba(255, 255, 255, 0.2);
+  max-width: 600px;
+}
+
+.contact-section li {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  list-style-type: none;
+}
+
+.contact-section ul {
+  margin: 0;
+  padding: 0;
 }
 
 footer {
   font-size: 15px;
   margin-top: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.songs {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.2);
 }
